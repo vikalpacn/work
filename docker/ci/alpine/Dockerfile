@@ -5,7 +5,7 @@ WORKDIR /diem
 COPY rust-toolchain /diem/rust-toolchain
 COPY scripts/dev_setup.sh /diem/scripts/dev_setup.sh
 
-RUN apk add bash=5.1.4-r0 --no-cache
+RUN apk add bash~=5.1 --no-cache
 
 # Batch mode and all operations tooling
 RUN scripts/dev_setup.sh -t -o -y -b -p -s
