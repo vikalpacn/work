@@ -20,7 +20,7 @@ pub enum NamedChain {
     TESTNET = 2,
     DEVNET = 3,
     TESTING = 4,
-    PREMAINNET = 5,
+    PREMAINNET = 21,
 }
 
 impl NamedChain {
